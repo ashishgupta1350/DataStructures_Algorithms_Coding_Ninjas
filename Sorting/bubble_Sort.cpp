@@ -1,3 +1,9 @@
+
+Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
+Worst and Average Case Time Complexity: O(n^2). Worst case occurs when array is reverse sorted.
+
+Auxiliary Space: O(1)
+
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -44,3 +50,13 @@ int main() {
     }
     return 0;
 }
+
+
+// Input:
+// 4
+// 3 12 4 2
+// Output:
+// Array is sorted in 4 swaps.
+// First Element: 2
+// Last Element: 12
+// Sorted array is: 2 3 4 12 
