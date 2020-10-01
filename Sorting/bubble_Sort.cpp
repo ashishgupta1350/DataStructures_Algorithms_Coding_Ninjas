@@ -1,8 +1,8 @@
 
-Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
-Worst and Average Case Time Complexity: O(n^2). Worst case occurs when array is reverse sorted.
+// Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
+// Worst and Average Case Time Complexity: O(n^2). Worst case occurs when array is reverse sorted.
 
-Auxiliary Space: O(1)
+// Auxiliary Space: O(1)
 
 #include <iostream>
 #include<bits/stdc++.h>
